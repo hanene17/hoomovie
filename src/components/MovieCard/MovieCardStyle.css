@@ -1,0 +1,29 @@
+
+
+
+
+ 
+img {
+  height: 500px;
+  flex-grow: 5;
+}
+.movie-card {
+ 
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.card-card{
+  display: flex;
+  flex-wrap: wrap;
+ 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-footer-badge {
+  font-size: 1rem;
+}
+
+
+
+
