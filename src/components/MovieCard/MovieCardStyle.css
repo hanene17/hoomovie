@@ -4,8 +4,8 @@
 
  
 img {
-  height: 500px;
-  flex-grow: 5;
+  height:800px;
+   flex-grow: 8;
 }
 .movie-card {
  
@@ -14,7 +14,7 @@ img {
 }
 .card-card{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:nowrap;
  
   flex-direction: row;
   justify-content: space-between;

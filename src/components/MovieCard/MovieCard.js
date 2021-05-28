@@ -12,7 +12,8 @@ const MovieCard = (props) => {
         <div className="movie-card card">
 					    <img  src={props.movie.posterUrl} alt='movie'></img> <br/>
                         <h4>{props.movie.title}</h4> <br/>
-                    <p className="text-justify" style={{fontSize: '14px'}}>{props.movie.description}</p> <br/>
+                 
+                    <div  className="text-justify" style={{fontSize: '12px'}}>{props.movie.description} </div> <br/>
                     
                     <div className="card-footer">
                 <div className="clearfix">

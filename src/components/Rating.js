@@ -9,10 +9,10 @@ const Rating = (props) => {
         starDimension="40px"
         starSpacing="15px"
         starRatedColor="yellow"
+       
       />        </div>
     )
 }
 
 export default Rating
 
-//https://www.npmjs.com/package/react-star-ratings

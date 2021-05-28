@@ -1,9 +1,7 @@
 import React from 'react'
 
 import './filter.css';
-
-
-
+import StarRatings from 'react-star-ratings';
 
 
 
@@ -18,15 +16,22 @@ function Filter({handleChange,handleSearchRating})
         placeholder="Search by title..."
        onChange={(e)=>handleChange(e.target.value)}
       />
-      <input
-        type="search"
-        placeholder="Search by rating..."
-        onChange={(e)=>handleSearchRating(e.target.value)}
-
-      />
      
+        
+     <StarRatings
+        numberOfStars={5}
+        starDimension="40px"
+        starSpacing="15px"
+        starRatedColor="yellow"
+        changeRating={handleSearchRating}
+        rating={3.5}
+     
+       
+      />  
+        
+    
       </form>
-  
+      
    
    
                 
