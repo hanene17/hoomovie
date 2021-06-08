@@ -23,6 +23,17 @@ img {
 .card-footer-badge {
   font-size: 1rem;
 }
+.movie-details{
+ margin-left:400px;
+    border: 1px solid #4CAF50;
+     display: flex; 
+     flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 900;
+}
 
 
 

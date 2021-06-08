@@ -41,19 +41,24 @@ function Add({AddMovie}) {
        <form>
         <label>
     title :
-    <input className="form-control" type="text" placeholder="Enter title" name="title" value={newMovie.title} onChange={handleAdd}  />
+    <input className="form-control" type="text" placeholder="Enter title" 
+    name="title" value={newMovie.title} onChange={handleAdd}  />
     </label>
     <label>
     description :
-    <input className="form-control" type="text" placeholder="Enter description" name="description" value={newMovie.description} onChange={handleAdd}  />
+    <input className="form-control" type="text" placeholder="Enter description"
+     name="description" value={newMovie.description} onChange={handleAdd}  />
     </label>
     <label>
     posterUrl:
-    <input className="form-control" type="text" placeholder="Enter posterUrl" name="posterUrl"   value={newMovie.posterUrl} onChange={handleAdd}    />
+    <input className="form-control" type="text" placeholder="Enter posterUrl" 
+    name="posterUrl"   value={newMovie.posterUrl} onChange={handleAdd}    />
     </label> <br/>
     <label> 
     rating:
-    <input className="form-control"  NumericInput min={0} max={5} value={50} type="number" ng-pattern="/^[0-5]+$/"  placeholder="Enter rating"  name="rating"  value={newMovie.rating}
+    <input className="form-control"  NumericInput min={0} max={5} value={50} 
+    type="number" ng-pattern="/^[0-5]+$/"  placeholder="Enter rating" 
+     name="rating"  value={newMovie.rating}
      onChange={handleAdd}     />
     </label>
     </form>

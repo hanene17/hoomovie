@@ -46,3 +46,6 @@ input {
   input::-webkit-input-placeholder {
     color: #999;
   }
+  .h{
+    text-align: center;
+  }

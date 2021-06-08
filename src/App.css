@@ -8,9 +8,17 @@ body {
   margin: 0 auto;
 }
 
-.app > .row {
+.movie-app > .row {
 	overflow-x: auto;
-	flex-wrap:nowrap;
+	flex-wrap:wrap;
   
+
+}
+.back-src{
+  height: 20vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 
 }
